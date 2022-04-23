@@ -38,7 +38,7 @@ footer {
     padding: .5rem;
     background-color: rgb(249, 4, 4);
     display: grid;
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 1fr;
     align-items: center;
     border-radius: 25px;
     box-shadow: 0 0 30px grey;
