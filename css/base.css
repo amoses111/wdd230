@@ -22,14 +22,14 @@ header {
     grid-template-columns: 200px 1fr;
     align-items: center;
     border-radius: 25px;
-    box-shadow: 5px 10px;
+    box-shadow: 2px 2px;
 }   
 
 header img {
     width: 100px;
     height: auto;
     border-radius: 25px;
-    box-shadow: 5px 10px;
+    box-shadow: 2px 2px;
 }
 
 footer {
@@ -41,5 +41,5 @@ footer {
     grid-template-columns: 200px 1fr;
     align-items: center;
     border-radius: 25px;
-    box-shadow: 5px 10px;
+    box-shadow: 2px 2px;
 }  
