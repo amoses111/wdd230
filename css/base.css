@@ -21,6 +21,7 @@ header {
     display: grid;
     grid-template-columns: 200px 1fr;
     align-items: center;
+    border-radius: 25px;
 }   
 
 header img {
@@ -35,5 +36,5 @@ footer {
     background-color: rgb(249, 4, 4);
     display: grid;
     grid-template-columns: 200px 1fr;
-    align-items: right;
+    align-items: center;
 }  
