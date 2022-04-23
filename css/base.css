@@ -27,6 +27,7 @@ header {
 header img {
     width: 100px;
     height: auto;
+    border-radius: 25px;
 }
 
 footer {
@@ -37,4 +38,5 @@ footer {
     display: grid;
     grid-template-columns: 200px 1fr;
     align-items: center;
+    border-radius: 25px;
 }  
