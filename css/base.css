@@ -48,3 +48,8 @@ footer {
 li {
     margin-left: 1em;
 }
+
+title {
+    font-size:large;
+    text-shadow: 0 0 30px grey;
+}
