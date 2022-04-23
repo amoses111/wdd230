@@ -21,6 +21,7 @@ header {
     display: grid;
     grid-template-columns: 200px 1fr;
     align-items: center;
+    text-align: center;
     border-radius: 25px;
     box-shadow: 0 0 30px grey;
 }   
@@ -40,7 +41,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
-    justify-content: center;
+    text-align: center;
     border-radius: 25px;
     box-shadow: 0 0 30px grey;
 }  
