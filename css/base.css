@@ -20,8 +20,7 @@ header {
     background-color: rgb(249, 4, 4);
     display: grid;
     grid-template-columns: 200px 1fr;
-    align-items: center;
-    text-align: center;
+    align-items: right;
     border-radius: 25px;
     box-shadow: 0 0 30px grey;
 }   
