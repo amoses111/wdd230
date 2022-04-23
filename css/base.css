@@ -17,7 +17,7 @@ header {
     margin: 1rem auto;
     border: 1px solid #bbb;
     padding: .5rem;
-    background-color: crimson;
+    background-color: rgb(249, 4, 4);
     display: grid;
     grid-template-columns: 200px 1fr;
     align-items: center;
