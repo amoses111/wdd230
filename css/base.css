@@ -49,3 +49,7 @@ footer {
 li {
     margin-left: 1em;
 }
+
+h1 {
+    text-shadow: 2px 2px 8px grey;
+}
