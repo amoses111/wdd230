@@ -23,6 +23,7 @@ header {
     align-items: center;
     border-radius: 25px;
     box-shadow: 0 0 30px grey;
+    text-shadow: 0 0 30px grey;
 }   
 
 header img {
@@ -47,9 +48,4 @@ footer {
 
 li {
     margin-left: 1em;
-}
-
-h1 {
-    font-size:xx-large;
-    text-shadow: 0 0 30px grey;
 }
