@@ -3,9 +3,6 @@ let year = d.getFullYear();
 document.querySelector("getFullYear").textContent = year;
 
 
-
-
-
 try {
     let options = {
         weekday: "numeric",
@@ -14,7 +11,8 @@ try {
         year: "numeric",
     };
 
-    document.querySelector("getFullYear").textContent = new Date().toLocaleDateString("en-US", options);
+    document.querySelector("getFullYear").textContent = 
+    new Date().toLocaleDateString("en-US", options);
     
 } catch (e) {
     alert("Error with code or your browser does not support Locale");
