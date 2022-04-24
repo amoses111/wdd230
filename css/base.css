@@ -60,8 +60,6 @@ h2 {
 }
 
 hr {
-    display: block; margin-before: 0.5em; 
-    margin-after: 0.5em; margin-start: auto; margin-end: auto; 
+    display: block; margin: auto; margin-top: 2px; margin-bottom: 2px;
     overflow: hidden; border-style: inset; border-width: 1px;
-    padding-top: 1em;
 }
