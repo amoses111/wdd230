@@ -60,6 +60,6 @@ h2 {
 }
 
 hr {
-    display: block; margin: auto; margin-top: 10px;
+    display: block; margin: auto; margin-top: 15px;
     overflow: hidden; border-style: inset; border-width: 1px;
 }
