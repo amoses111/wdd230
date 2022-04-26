@@ -19,7 +19,7 @@ header {
     padding: .5rem;
     background-color: rgb(249, 163, 4);
     display: grid;
-    grid-template-columns: 200px 1fr 1fr;
+    grid-template-columns: 200px 1fr;
     align-items: center;
     border-radius: 25px;
     box-shadow: 0 0 30px grey;
@@ -52,7 +52,7 @@ li {
 
 h1 {
     text-shadow: 2px 2px 8px black;
-    text-align: right;
+    margin-left: 20px;
 }
 
 h2 {
