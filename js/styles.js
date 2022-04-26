@@ -1,6 +1,6 @@
 let d = new Date();
 let year = d.getFullYear();
-document.querySelector("getFullYear").textContent = year;
+get.document.querySelector(#getFullYear).textContent = year;
 
 
 try {
