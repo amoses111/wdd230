@@ -31,6 +31,12 @@ p {
 
 }
 
+.paragraph1 {
+    margin: 1rem auto;
+    border: 1px solid black;
+    padding: .5rem;
+}
+
 .paragraph1 img {
 
     width: 100px;
