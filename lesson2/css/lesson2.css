@@ -27,9 +27,6 @@ p {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     text-align: center;
-    border-radius: 25px;
-    box-shadow: 0 0 30px grey;
-    text-shadow: 0 0 30px grey;
 
 }
 
@@ -37,7 +34,5 @@ p {
 
     width: 100px;
     height: auto;
-    border-radius: 25px;
-    box-shadow: 0 0 30px grey;
 
 }
