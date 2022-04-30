@@ -36,6 +36,7 @@ p {
     border: 1px solid black;
     padding: .5rem;
     border-radius: 25px;
+    background-color: rgb(197, 197, 251);
 }
 
 .paragraph1 img {
