@@ -39,7 +39,11 @@ h1 {
     background-color: lavender;
 }
 
-.header1 + .header2 + .header3 {
+.header2 + .header3 {
+    margin-left: 10px;
+}
+
+.header1 + .header2 {
     margin-left: 10px;
 }
 
