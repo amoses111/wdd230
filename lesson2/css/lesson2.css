@@ -201,3 +201,29 @@ p {
 .paragraph3 a:active {
     text-decoration: none;
 }
+
+header {
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    text-align: center;
+    border-radius: 25px;
+    margin: 1rem auto; 
+    border: 1px solid #bbb; 
+    padding: .5rem; 
+    background-color: black;
+    border-radius: 25px;
+}
+
+.title + .name {
+    color: white;
+}
+
+.title {
+    font-size: xx-large;
+}
+
+.name {
+    font-size: x-large;
+}
