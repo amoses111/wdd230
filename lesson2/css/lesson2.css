@@ -30,5 +30,14 @@ p {
     border-radius: 25px;
     box-shadow: 0 0 30px grey;
     text-shadow: 0 0 30px grey;
+
 }
 
+.paragraph1 img {
+
+    width: 100px;
+    height: auto;
+    border-radius: 25px;
+    box-shadow: 0 0 30px grey;
+
+}
