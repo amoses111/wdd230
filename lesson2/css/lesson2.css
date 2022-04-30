@@ -2,10 +2,6 @@
 
 h1 {
     font-family: 'Roboto', sans-serif;
-    margin: 1rem auto;
-    border: 1px solid #bbb;
-    padding: .5rem;
-    background-color: white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
@@ -14,6 +10,12 @@ h1 {
     box-shadow: 0 0 20px grey;
     text-shadow: 0 0 30px grey
 }
+
+/**/margin: 1rem auto; border: 1px solid #bbb; 
+padding: .5rem; background-color: white;
+border-radius: 25px;
+box-shadow: 0 0 20px grey;
+/**/
 
 .header1 {
     margin: 1fr auto;
