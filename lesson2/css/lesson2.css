@@ -3,9 +3,9 @@ body {
     margin: 1rem auto;
     border: 1px solid #bbb;
     padding: .5rem;
-    background-color: rgb(249, 163, 4);
+    background-color: white;
     display: grid;
-    grid-template-columns: 260px 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     border-radius: 25px;
     box-shadow: 0 0 30px grey;
