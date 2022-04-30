@@ -56,12 +56,12 @@ p {
 }
 
 .paragraph1 a:link {
-    color: rgb(0, 119, 255);
+    color: rgb(0, 47, 255);
     text-decoration: none;
 }
 
 .paragraph1 a:visited {
-    color: rgb(0, 119, 255);
+    color: rgb(0, 47, 255);
     text-decoration: none;
 }
 
