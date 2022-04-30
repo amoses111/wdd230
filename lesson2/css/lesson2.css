@@ -26,7 +26,8 @@ p {
     align-items: center;
     text-align: center;
     border-radius: 25px;
-    background-color: lavender
+    background-color: lavender;
+    box-shadow: 0 0 30px;
 
 }
 
