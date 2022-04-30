@@ -27,6 +27,7 @@ p {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     text-align: center;
+    border-radius: 25px;
 
 }
 
@@ -34,5 +35,6 @@ p {
 
     width: 100px;
     height: auto;
+    border-radius: 25px;
 
 }
