@@ -216,14 +216,12 @@ header {
     border-radius: 25px;
 }
 
-.title + .name {
+header .title {
+    font-size: xx-large;
     color: white;
 }
 
-.title {
-    font-size: xx-large;
-}
-
-.name {
+header .name {
     font-size: x-large;
+    color: white;
 }
