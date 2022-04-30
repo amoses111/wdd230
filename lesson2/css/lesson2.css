@@ -39,6 +39,10 @@ h1 {
     background-color: lavender;
 }
 
+.header1 + .header2 + .header3 {
+    margin-left: 10px;
+}
+
 p {
     font-family: 'Open Sans', sans-serif;
     margin: 1rem auto;
