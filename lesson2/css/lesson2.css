@@ -1,3 +1,19 @@
+
+body {
+    margin: 1rem auto;
+    border: 1px solid #bbb;
+    padding: .5rem;
+    background-color: rgb(249, 163, 4);
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 0 0 30px grey;
+    text-shadow: 0 0 30px grey;
+}
+
+
+
 h1 {
     font-family: 'Roboto', sans-serif;
 }
@@ -5,3 +21,4 @@ h1 {
 p {
     font-family: 'Open Sans', sans-serif;
 }
+
