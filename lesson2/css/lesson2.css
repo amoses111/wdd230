@@ -1,5 +1,5 @@
 
-p {
+main {
     font-family: 'Open Sans', sans-serif;
     margin: 1rem auto;
     border: 1px solid #bbb;
@@ -15,7 +15,7 @@ p {
 
 }
 
-.paragraph1 {
+#one {
     margin: 1rem auto;
     border: 1px solid black;
     padding: .5rem;
@@ -23,7 +23,7 @@ p {
     background-color: lavender;
 }
 
-.paragraph1 img {
+#one img {
 
     width: 90%;
     height: auto;
@@ -35,31 +35,31 @@ p {
 
 }
 
-.paragraph1 a {
+#one a {
     font-size: x-large;
 }
 
-.paragraph1 a:link {
+#one a:link {
     color: rgb(0, 47, 255);
     text-decoration: none;
 }
 
-.paragraph1 a:visited {
+#one a:visited {
     color: rgb(0, 47, 255);
     text-decoration: none;
 }
 
-.paragraph1 a:hover {
+#one a:hover {
     color: rgb(250, 250, 6);
     text-decoration: none;
 }
 
-.paragraph1 a:active {
+#one a:active {
     text-decoration: none;
 }
 
 
-.paragraph2 {
+#two {
     margin: 1rem auto;
     border: 1px solid black;
     padding: .5rem;
@@ -67,7 +67,7 @@ p {
     background-color: lavender;
 }
 
-.paragraph2 img {
+#two img {
 
     width: 90%;
     height: auto;
@@ -79,39 +79,39 @@ p {
 
 }
 
-.paragraph2 a {
+#two a {
     font-size: x-large;
 }
 
-.paragraph2 a:link {
+#two a:link {
     color: rgb(0, 47, 255);
     text-decoration: none;
 }
 
-.paragraph2 a:visited {
+#two a:visited {
     color: rgb(0, 47, 255);
     text-decoration: none;
 }
 
-.paragraph2 a:hover {
+#two a:hover {
     color: rgb(250, 250, 6);
     text-decoration: none;
 }
 
-.paragraph2 a:active {
+#two a:active {
     text-decoration: none;
 }
 
-.paragraph1 + .paragraph2 {
+#one + #two {
     margin-left: 10px;
 }
 
-.paragraph2 + .paragraph3 {
+#two + #three {
     margin-left: 10px;
 }
 
 
-.paragraph3 {
+#three {
     margin: 1rem auto;
     border: 1px solid black;
     padding: .5rem;
@@ -119,7 +119,7 @@ p {
     background-color: lavender;
 }
 
-.paragraph3 img {
+#three img {
 
     width: 90%;
     height: auto;
@@ -131,26 +131,26 @@ p {
 
 }
 
-.paragraph3 a {
+#three a {
     font-size: x-large;
 }
 
-.paragraph3 a:link {
+#three a:link {
     color: rgb(0, 47, 255);
     text-decoration: none;
 }
 
-.paragraph3 a:visited {
+#three a:visited {
     color: rgb(0, 47, 255);
     text-decoration: none;
 }
 
-.paragraph3 a:hover {
+#three a:hover {
     color: rgb(250, 250, 6);
     text-decoration: none;
 }
 
-.paragraph3 a:active {
+#three a:active {
     text-decoration: none;
 }
 
