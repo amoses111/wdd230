@@ -239,10 +239,10 @@ footer {
     box-shadow: 0 0 30px grey;
 }  
 
-footer .year {
+.year {
     color: white;
 }
 
-footer .modified {
+.modified {
     color: white;
 }
