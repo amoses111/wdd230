@@ -1,5 +1,9 @@
 
-body {
+
+
+
+h1 {
+    font-family: 'Roboto', sans-serif;
     margin: 1rem auto;
     border: 1px solid #bbb;
     padding: .5rem;
@@ -10,12 +14,6 @@ body {
     border-radius: 25px;
     box-shadow: 0 0 30px grey;
     text-shadow: 0 0 30px grey;
-}
-
-
-
-h1 {
-    font-family: 'Roboto', sans-serif;
 }
 
 p {
