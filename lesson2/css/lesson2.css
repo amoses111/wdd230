@@ -16,7 +16,7 @@ h1 {
 }
 
 .header1 {
-    margin: 1rem auto;
+    margin: 1fr auto;
     border: 1px solid black;
     padding: .5rem;
     border-radius: 25px;
