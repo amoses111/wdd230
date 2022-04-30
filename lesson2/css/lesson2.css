@@ -239,10 +239,10 @@ footer {
     box-shadow: 0 0 30px grey;
 }  
 
-.year {
+h3 .year {
     color: white;
 }
 
-.modified {
+p.a .modified {
     color: white;
 }
