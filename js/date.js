@@ -1,12 +1,7 @@
-const date = new Date();
+const d = new Date();
+const year = d.getFullYear();
 
-const year = date.getFullYear();
 
-document.querySelector('#year').innerHTML = year;
-
-const modified = new Date(document.lastModified);
-
-document.querySelector('#modified').innerHTML = modified;
 
 
 
