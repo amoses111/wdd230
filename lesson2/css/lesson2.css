@@ -39,7 +39,6 @@ p {
 
 }
 
-.paragraph1 li {
-
-    list-style: none;
+.paragraph1 a {
+    font-size: xx-large;
 }
