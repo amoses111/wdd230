@@ -2,18 +2,14 @@
 main {
     font-family: 'Open Sans', sans-serif;
     margin: 10px;
-    border: 1px solid #bbb;
     padding: .5rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: baseline;
-    border-radius: 25px;
-    background-color: white;
-    box-shadow: 0 0 20px;
-
 }
 
 #one {
+    display: grid;
     margin: 1rem auto;
     border: 1px solid black;
     padding: .5rem;
@@ -58,6 +54,7 @@ main {
 
 
 #two {
+    display: grid;
     margin: 1rem auto;
     border: 1px solid black;
     padding: .5rem;
@@ -106,6 +103,8 @@ main {
 
 
 #three {
+    display: grid;
+    grid-template-rows: auto;
     margin: 1rem auto;
     border: 1px solid black;
     padding: .5rem;
