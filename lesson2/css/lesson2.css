@@ -15,11 +15,6 @@ main {
 
 }
 
-h2 {
-    background-color: rgb(105, 105, 148);
-    width: 1fr;
-}
-
 #one {
     margin: 1rem auto;
     border: 1px solid black;
@@ -32,8 +27,7 @@ h2 {
     background-color: white;
     color: white;
     margin: 1rem auto;
-    width: 100%
-
+    width: 1fr;
 }
 
 #one img {
