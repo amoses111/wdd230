@@ -15,6 +15,11 @@ main {
 
 }
 
+h2 {
+    background-color: rgb(105, 105, 148);
+    width: 1fr;
+}
+
 #one {
     margin: 1rem auto;
     border: 1px solid black;
@@ -24,7 +29,7 @@ main {
 }
 
 #one .header1 {
-    background-color: rgb(105, 105, 148);
+    background-color: white;
     color: white;
     margin: 1rem auto;
     width: 100%
