@@ -146,12 +146,10 @@ header {
     grid-template-columns: 1fr;
     align-items: center;
     text-align: center;
-    border-radius: 25px;
     margin: 1rem auto; 
     border: 1px solid #bbb; 
     padding: .5rem; 
     background-color: black;
-    border-radius: 25px;
 }
 
 header .title {
@@ -173,7 +171,6 @@ footer {
     grid-template-columns: 1fr;
     align-items: center;
     text-align: center;
-    border-radius: 25px;
     box-shadow: 0 0 30px grey;
     color: white;
 }  
