@@ -4,7 +4,6 @@ main {
     margin: 1rem auto;
     border: 1px solid #bbb;
     padding: .5rem;
-    background-color: white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
@@ -27,7 +26,6 @@ main {
     background-color: rgb(73, 73, 136);
     color: white;
     width: 1fr;
-    align-items: stretch;
 }
 
 #one img {
