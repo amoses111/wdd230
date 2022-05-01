@@ -1,4 +1,5 @@
 
+/*Main*/
 main {
     font-family: 'Open Sans', sans-serif;
     margin: 10px;
@@ -7,13 +8,14 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: baseline;
 }
+/**/
 
+/*First Column*/
 #one {
     display: grid;
     margin: 1rem auto;
     border: 1px solid black;
-    padding: .5rem;
-    border-radius: 25px;
+    border-radius: 5px 5px 0px 0px;
     background-color: lavender;
     min-height: 95%;
 }
@@ -21,11 +23,10 @@ main {
 #one .header1 {
     background-color: rgb(67, 67, 129);
     color: white;
-    width: 100%;
-    height: auto;
     align-items: center;
     font-size: large;
-    border-radius: 25px 25px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+    padding: 10px;
 }
 
 #one img {
@@ -34,9 +35,8 @@ main {
     border: 1px solid black;
 }
 
-#one a {
-    width: 100%;
-    height: auto;
+#one .link1 {
+    padding: 10px;
 }
 
 #one a:link {
@@ -58,23 +58,28 @@ main {
     text-decoration: none;
 }
 
+#one .text1 {
+    padding: 10px;
+}
+/**/
 
+/*Second Column*/
 #two {
     display: grid;
     margin: 1rem auto;
     border: 1px solid black;
-    padding: .5rem;
-    border-radius: 25px;
+    border-radius: 5px 5px 0px 0px;
     background-color: lavender;
-    width: 100%;
     min-height: 95%;
 }
 
 #two .header2 {
+    background-color: rgb(67, 67, 129);
+    color: white;
     align-items: center;
     font-size: large;
-    width: 100%;
-    height: auto;
+    border-radius: 5px 5px 0px 0px;
+    padding: 10px;
 }
 
 #two img {
@@ -83,9 +88,8 @@ main {
     border: 1px solid black;
 }
 
-#two a {
-    width: 100%;
-    height: auto;
+#two .link2 {
+    padding: 10px;
 }
 
 #two a:link {
@@ -107,6 +111,13 @@ main {
     text-decoration: none;
 }
 
+#two .text2 {
+    padding: 10px;
+}
+
+/**/
+
+/*White space*/
 #one + #two {
     margin-left: 10px;
 }
@@ -114,24 +125,25 @@ main {
 #two + #three {
     margin-left: 10px;
 }
+/**/
 
-
+/*Third Column*/
 #three {
     display: grid;
     margin: 1rem auto;
     border: 1px solid black;
-    padding: .5rem;
-    border-radius: 25px;
+    border-radius: 5px 5px 0px 0px;
     background-color: lavender;
-    width: 100%;
     min-height: 95%;
 }
 
 #three .header3 {
+    background-color: rgb(67, 67, 129);
+    color: white;
     align-items: center;
     font-size: large;
-    width: 100%;
-    height: auto;
+    border-radius: 5px 5px 0px 0px;
+    padding: 10px;
 }
 
 #three img {
@@ -140,9 +152,8 @@ main {
     border: 1px solid black;
 }
 
-#three a {
-    width: 100%;
-    height: auto;
+#three .link3 {
+    padding: 10px;
 }
 
 #three a:link {
@@ -164,6 +175,12 @@ main {
     text-decoration: none;
 }
 
+#three .text3 {
+    padding: 10px;
+}
+/**/
+
+/*Header*/
 header {
     font-family: 'Roboto', sans-serif;
     display: grid;
@@ -185,7 +202,9 @@ header .name {
     font-size: x-large;
     color: white;
 }
+/**/
 
+/*Footer*/
 footer {
     margin: 1rem auto;
     border: 1px solid #bbb;
@@ -198,3 +217,4 @@ footer {
     box-shadow: 0 0 30px grey;
     color: white;
 }  
+/**/
