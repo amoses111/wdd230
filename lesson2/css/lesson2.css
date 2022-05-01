@@ -23,6 +23,12 @@ main {
     background-color: lavender;
 }
 
+#one .header1 {
+    background-color: rgb(105, 105, 148);
+    color: white;
+
+}
+
 #one img {
 
     width: 100%;
