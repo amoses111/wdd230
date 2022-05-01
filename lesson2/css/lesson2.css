@@ -24,9 +24,8 @@ main {
 }
 
 #one .header1 {
-    background-color: white;
+    background-color: rgb(73, 73, 136);
     color: white;
-    margin: 1rem auto;
     width: 1fr;
 }
 
