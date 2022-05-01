@@ -26,6 +26,7 @@ main {
     background-color: rgb(73, 73, 136);
     color: white;
     width: 1fr;
+    align-items: center;
 }
 
 #one img {
@@ -61,6 +62,10 @@ main {
     border-radius: 25px;
     background-color: lavender;
     min-height: 95%;
+}
+
+#two .header2 {
+    align-items: center;
 }
 
 #two img {
@@ -104,6 +109,10 @@ main {
     border-radius: 25px;
     background-color: lavender;
     min-height: 95%;
+}
+
+#three .header3 {
+    align-items: center;
 }
 
 #three img {
