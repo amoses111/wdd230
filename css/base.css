@@ -17,7 +17,7 @@ header {
     margin: 1rem auto;
     border: 1px solid #bbb;
     padding: .5rem;
-    background-color: rgb(249, 163, 4);
+    background-color: rgb(20, 193, 4);
     display: grid;
     grid-template-columns: 260px 1fr;
     align-items: center;
@@ -37,7 +37,7 @@ footer {
     margin: 1rem auto;
     border: 1px solid #bbb;
     padding: .5rem;
-    background-color: rgb(249, 163, 4);
+    background-color: rgb(20, 193, 4);
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
