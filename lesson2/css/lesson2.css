@@ -22,6 +22,7 @@ main {
     background-color: rgb(67, 67, 129);
     color: white;
     width: 100%;
+    height: auto;
     align-items: center;
     font-size: large;
     border-radius: 25px 25px 0px 0px;
@@ -31,6 +32,11 @@ main {
     width: 100%;
     height: auto;
     border: 1px solid black;
+}
+
+#one a {
+    width: 100%;
+    height: auto;
 }
 
 #one a:link {
@@ -60,18 +66,26 @@ main {
     padding: .5rem;
     border-radius: 25px;
     background-color: lavender;
+    width: 100%;
     min-height: 95%;
 }
 
 #two .header2 {
     align-items: center;
     font-size: large;
+    width: 100%;
+    height: auto;
 }
 
 #two img {
     width: 100%;
     height: auto;
     border: 1px solid black;
+}
+
+#two a {
+    width: 100%;
+    height: auto;
 }
 
 #two a:link {
@@ -109,18 +123,26 @@ main {
     padding: .5rem;
     border-radius: 25px;
     background-color: lavender;
+    width: 100%;
     min-height: 95%;
 }
 
 #three .header3 {
     align-items: center;
     font-size: large;
+    width: 100%;
+    height: auto;
 }
 
 #three img {
     width: 100%;
     height: auto;
     border: 1px solid black;
+}
+
+#three a {
+    width: 100%;
+    height: auto;
 }
 
 #three a:link {
