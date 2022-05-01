@@ -26,6 +26,7 @@ main {
 #one .header1 {
     background-color: rgb(105, 105, 148);
     color: white;
+    margin: 1rem auto;
 
 }
 
