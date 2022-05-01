@@ -104,7 +104,6 @@ main {
 
 #three {
     display: grid;
-    grid-template-rows: auto;
     margin: 1rem auto;
     border: 1px solid black;
     padding: .5rem;
