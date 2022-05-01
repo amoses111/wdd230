@@ -21,13 +21,13 @@ main {
     padding: .5rem;
     border-radius: 25px;
     background-color: lavender;
-    align-items: flex-start;
 }
 
 #one .header1 {
     background-color: rgb(73, 73, 136);
     color: white;
     width: 1fr;
+    align-items: stretch;
 }
 
 #one img {
