@@ -15,7 +15,7 @@ main {
 }
 
 #one {
-    margin: 1rem auto;
+    margin: 10px;
     border: 1px solid black;
     padding: .5rem;
     border-radius: 25px;
@@ -55,7 +55,7 @@ main {
 
 
 #two {
-    margin: 1rem auto;
+    margin: 10px;
     border: 1px solid black;
     padding: .5rem;
     border-radius: 25px;
@@ -97,6 +97,7 @@ main {
 
 
 #three {
+    margin: 10px;
     border: 1px solid black;
     padding: .5rem;
     border-radius: 25px;
