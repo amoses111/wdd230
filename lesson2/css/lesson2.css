@@ -19,6 +19,7 @@ main {
     padding: .5rem;
     border-radius: 25px;
     background-color: lavender;
+    min-height: 100%;
 }
 
 #one .header1 {
@@ -59,6 +60,7 @@ main {
     padding: .5rem;
     border-radius: 25px;
     background-color: lavender;
+    min-height: 100%;
 }
 
 #two img {
@@ -101,6 +103,7 @@ main {
     padding: .5rem;
     border-radius: 25px;
     background-color: lavender;
+    min-height: 100%;
 }
 
 #three img {
