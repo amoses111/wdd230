@@ -116,11 +116,11 @@ th {
 #sheader {
     background-color: #785964;
     color: #F1FFFA;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 #sh1 {
-    font-size: large;
+    font-size: x-large;
     font-weight: bold;
 }
 
@@ -148,7 +148,7 @@ th {
     background-color: white;
     color: black;
     font-family: 'Work Sans', sans-serif;
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: bold;
 }
 
