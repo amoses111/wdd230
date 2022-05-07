@@ -2,4 +2,8 @@
     header {font-size: 3em;}
     li {font-size: 1.1em;}
     ul {display: grid; grid-template-columns: repeat(5, 1fr);}
+    #th1 {font-size: xx-large;}
+    #sheader {font-size: xx-large;}
+    #sh1 {font-size: xx-large;}
+    p {font-size: x-large;}
 }
