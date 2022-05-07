@@ -91,3 +91,20 @@ main {
     padding: .5rem;
     background-color: white;
 }
+
+tr {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+th {
+    padding: .5rem;
+    border: 1px solid black;
+    width: 100%;
+}
+
+th.sheader {
+    background-color: #785964;
+    color: #F1FFFA;
+}
