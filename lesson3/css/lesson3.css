@@ -4,13 +4,8 @@
     box-sizing: border-box;
 }
 
-body {
-    max-width: 960px;
-    margin: 0 auto;
-}
-
-header, nav, main, footer {
-    max-width: 960px;
+header, nav, body, footer {
+    max-width: 450px;
     margin: 0 auto;
 }
 
@@ -61,6 +56,7 @@ footer {
     left: 0px;
     right: 0px;
     margin-bottom: 0px;
+    
 }
 
 ul {
