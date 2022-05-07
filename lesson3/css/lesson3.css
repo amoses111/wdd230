@@ -4,16 +4,35 @@
     box-sizing: border-box;
 }
 
+header, nav, main, footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 header {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 200px 1fr;
     align-items: center;
     text-align: center;
     border: 1px solid black; 
     padding: .5rem; 
     background-color: #785964;
-    font-size: xx-large;
     color: #F1FFFA;
+}
+
+header #title {
+    font-size: xx-large;
+    padding: .5rem;
+}
+
+header #domain {
+    font-size: large;
+    padding: .5rem;
+    grid-column: 2/3;
+}
+
+img {
+    max-width: 150px;
 }
 
 footer {
@@ -25,17 +44,41 @@ footer {
     grid-template-columns: 1fr;
     align-items: center;
     text-align: center;
+    color: #F1FFFA;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
 }
 
 ul {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
     text-decoration: none;
     list-style: none;
     padding: .5rem;
-    background-color: #d5c7bc;
+    background-color: white;
+}
+
+li {
+    background-color: #D5C7BC;
+    width: 100%;
+    text-align: center;
+    padding: .5rem;
 }
 
 li:hover {
     background-color: #F1FFFA;
+}
+
+a {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    padding: .5rem;
 }
