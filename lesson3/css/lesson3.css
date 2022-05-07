@@ -94,6 +94,11 @@ main {
     padding: .5rem;
     background-color: white;
     font-family: 'Work Sans', sans-serif;
+    margin-bottom: 75px;
+}
+
+p {
+    padding: .5rem;
 }
 
 tr {
