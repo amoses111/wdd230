@@ -77,6 +77,7 @@ li {
 
 li:hover {
     background-color: #F1FFFA;
+    box-shadow: 0 0 30px grey;
 }
 
 a {
@@ -87,4 +88,5 @@ a {
 
 main {
     padding: .5rem;
+    background-color: white;
 }
