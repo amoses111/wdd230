@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-header, nav, body, footer {
-    max-width: 450px;
-    margin: 0 auto;
+html, body, #wrapper {
+    width: 100%;
+    min-height: 100%;
 }
 
 header {
