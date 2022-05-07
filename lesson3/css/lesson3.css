@@ -33,11 +33,8 @@ header #domain {
 picture {
     background-color: #D5C7BC;
     width: 100%;
+    display: flex;
     justify-content: center;
-    justify-items: center;
-    align-items: center;
-    align-content: center;
-    padding: .15rem;
 }
 
 img {
