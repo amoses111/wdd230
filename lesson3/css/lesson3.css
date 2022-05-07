@@ -18,6 +18,7 @@ header {
     padding: .5rem; 
     background-color: #785964;
     color: #F1FFFA;
+    font-family: 'Koulen', cursive;
 }
 
 header #title {
@@ -56,12 +57,13 @@ footer {
     left: 0px;
     right: 0px;
     margin-bottom: 0px;
+    font-family: 'Koulen', cursive;
     
 }
 
 ul {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     justify-items: center;
     text-decoration: none;
     list-style: none;
@@ -74,6 +76,7 @@ li {
     width: 100%;
     text-align: center;
     padding: .5rem;
+    font-family: 'Work Sans', sans-serif;
 }
 
 li:hover {
@@ -90,6 +93,7 @@ a {
 main {
     padding: .5rem;
     background-color: white;
+    font-family: 'Work Sans', sans-serif;
 }
 
 tr {
@@ -131,4 +135,37 @@ th {
 #sfooterp {
     background-color: #785964;
     color: #F1FFFA;
+}
+
+#theader {
+    background-color: white;
+    color: black;
+    font-family: 'Koulen', cursive;
+    font-size: xx-large;
+}
+
+#th1 {
+    background-color: white;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#tli {
+    background-color: white;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#tp {
+    background-color: white;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#tfooter {
+    background-color: white;
+    color: black;
+    font-family: 'Koulen', cursive;
 }

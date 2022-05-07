@@ -1,3 +1,5 @@
 @media screen and (min-width: 65em) {
-    
+    header {font-size: 3em;}
+    li {font-size: 1.1em;}
+    ul {display: grid; grid-template-columns: repeat(5, 1fr);}
 }
