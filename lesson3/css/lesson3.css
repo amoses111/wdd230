@@ -98,13 +98,37 @@ tr {
     grid-template-columns: repeat(4, 1fr);
 }
 
+#tcategory {
+    font-weight: bold;
+}
+
 th {
     padding: .5rem;
     border: 1px solid black;
     width: 100%;
+    font-weight: normal;
 }
 
-th.sheader {
+#sheader {
+    background-color: #785964;
+    color: #F1FFFA;
+    font-size: xx-large;
+}
+
+#sh1 {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#sli {
+    background-color: #D5C7BC;
+}
+
+#slihover {
+    background-color: #F1FFFA;
+}
+
+#sfooterp {
     background-color: #785964;
     color: #F1FFFA;
 }
