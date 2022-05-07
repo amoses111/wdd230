@@ -9,20 +9,33 @@ header {
     grid-template-columns: 1fr;
     align-items: center;
     text-align: center;
-    margin: 1rem auto; 
     border: 1px solid black; 
     padding: .5rem; 
-    background-color: rgb(0, 170, 255);
+    background-color: #785964;
     font-size: xx-large;
+    color: #F1FFFA;
 }
 
 footer {
     margin: 1rem auto;
     border: 1px solid black;
     padding: .5rem;
-    background-color: rgb(0, 170, 255);
+    background-color: #785964;
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
     text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-items: center;
+    text-decoration: none;
+    list-style: none;
+    padding: .5rem;
+    background-color: #d5c7bc;
+}
+
+li:hover {
+    background-color: #F1FFFA;
 }
