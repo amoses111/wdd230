@@ -11,7 +11,7 @@ header, nav, main, footer {
 
 header {
     display: grid;
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 1fr;
     align-items: center;
     text-align: center;
     border: 1px solid black; 
@@ -28,11 +28,20 @@ header #title {
 header #domain {
     font-size: large;
     padding: .5rem;
-    grid-column: 2/3;
+}
+
+picture {
+    background-color: #D5C7BC;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    padding: .15rem;
 }
 
 img {
-    max-width: 150px;
+    background-color: #D5C7BC;
 }
 
 footer {
@@ -54,7 +63,7 @@ footer {
 
 ul {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     justify-items: center;
     text-decoration: none;
     list-style: none;
