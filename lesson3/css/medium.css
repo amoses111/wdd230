@@ -1,6 +1,6 @@
 @media screen and (min-width: 32.5em) {
     header {font-size: 2.5em;}
-    ul {display: grid; grid-template-columns: repeat(5, 1fr);}
+    ul {grid-template-columns: repeat(5, 1fr);}
     #th1 {font-size: xx-large;}
     #sheader {font-size: xx-large;}
     #sh1 {font-size: xx-large;}
