@@ -6,5 +6,5 @@
     #sh1 {font-size: xx-large;}
     p {font-size: larger;}
     #tp {font-size: larger;}
-    .navigation li:first child {display: none}
+    .navigation li:first-child {display: none}
 }
