@@ -73,6 +73,10 @@ footer {
     background-color: white;
 }
 
+.responsive li {
+    display: block;
+}
+
 li {
     background-color: #D5C7BC;
     width: 100%;
