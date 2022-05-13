@@ -66,6 +66,7 @@ footer {
 }
 
 .navigation li {
+    display: none;
     justify-items: center;
     text-decoration: none;
     list-style: none;

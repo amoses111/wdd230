@@ -1,7 +1,6 @@
 @media screen and (min-width: 32.5em) {
     header {font-size: 2.5em;}
     .navigation li {display: grid;
-                    grid-template-columns: 1fr;
                     grid-template-columns: repeat(5, 1fr);}
     .navigation li:first-child {display: none;}
     #th1 {font-size: xx-large;}
@@ -9,4 +8,11 @@
     #sh1 {font-size: xx-large;}
     p {font-size: larger;}
     #tp {font-size: larger;}
+    
 }
+
+.responsive li {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
