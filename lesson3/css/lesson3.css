@@ -61,9 +61,11 @@ footer {
     
 }
 
-.navigation {
-    display: grid;
-    grid-template-columns: 1fr;
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
     justify-items: center;
     text-decoration: none;
     list-style: none;
