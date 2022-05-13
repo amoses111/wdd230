@@ -1,9 +1,10 @@
 @media screen and (min-width: 32.5em) {
     header {font-size: 2.5em;}
-    ul {grid-template-columns: repeat(5, 1fr);}
+    .navigation {grid-template-columns: repeat(5, 1fr);}
     #th1 {font-size: xx-large;}
     #sheader {font-size: xx-large;}
     #sh1 {font-size: xx-large;}
     p {font-size: larger;}
     #tp {font-size: larger;}
+    .navigation li:first child {display: none}
 }
