@@ -61,12 +61,15 @@ footer {
     
 }
 
+/*
 .navigation li:first-child {
     display: block;
 }
-
+*/
 .navigation li {
+    /*
     display: none;
+    */
     justify-items: center;
     text-decoration: none;
     list-style: none;
@@ -74,9 +77,11 @@ footer {
     background-color: white;
 }
 
+/*
 .responsive li {
     display: block;
 }
+*/
 
 li {
     background-color: #D5C7BC;
