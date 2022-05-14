@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -84,4 +83,10 @@ a img {
 
 #title img {
     max-width: 300px;
+}
+
+#title {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: .5rem;
 }
