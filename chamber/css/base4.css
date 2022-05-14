@@ -82,7 +82,7 @@ a img {
 }
 
 #title img {
-    max-width: 300px;
+    max-width: 200px;
 }
 
 #title {
@@ -91,7 +91,7 @@ a img {
     padding: .5rem;
 }
 
-hr {
+footer .hr {
     display: block; margin: auto; margin-top: 15px;
     overflow: hidden; border-style: inset; border-width: 1px;
 }
