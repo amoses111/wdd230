@@ -42,3 +42,21 @@ nav {
 .responsive li {
     display: block;
 }
+
+footer {
+    margin: 1rem auto;
+    border: 1px solid black;
+    padding: .5rem;
+    background-color: #785964;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    text-align: center;
+    color: #F1FFFA;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    font-family: 'Koulen', cursive;
+}
