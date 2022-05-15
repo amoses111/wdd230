@@ -60,6 +60,11 @@ nav {
     display: block;
 }
 
+main {
+    padding: .5rem;
+    margin-bottom: 50px;
+}
+
 footer {
     margin: 1rem auto;
     border: 1px solid black;
@@ -75,6 +80,7 @@ footer {
     left: 0px;
     right: 0px;
     margin-bottom: 0px;
+    margin-top: 100px;
     font-family: 'Koulen', cursive;
 }
 
@@ -109,5 +115,13 @@ footer .hr {
     justify-content: center;
     font-size: 2em;
     color: black;
+}
+
+#hero {
+    box-sizing: border-box;
+    margin: 1rem auto;
+    border: 1px solid black;
+    padding: .5rem;
+    height: 200px;
 }
 
