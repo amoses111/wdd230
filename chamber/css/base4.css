@@ -11,7 +11,6 @@ html, #wrapper {
 header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
     align-items: center;
     text-align: center;
     border: 1px solid black;
@@ -120,6 +119,46 @@ footer .hr {
 #hero {
     box-sizing: border-box;
     margin: 1rem auto;
+    border: 1px solid black;
+    padding: .5rem;
+    height: 200px;
+}
+
+#weather {
+    box-sizing: border-box;
+    margin: 1rem auto;
+    border: 1px solid black;
+    padding: .5rem;
+    height: 200px;
+}
+
+#spotlights {
+    box-sizing: border-box;
+    margin: 1rem auto;
+    border: 1px solid black;
+    padding: .5rem;
+    height: 200px;
+}
+
+#event {
+    box-sizing: border-box;
+    margin: 1rem auto;
+    border: 1px solid black;
+    padding: .5rem;
+    height: 200px;
+}
+
+#join {
+    box-sizing: border-box;
+    margin: 1rem auto;
+    border: 1px solid black;
+    padding: .5rem;
+    height: 200px;
+}
+
+#news {
+    box-sizing: border-box;
+    margin-bottom: 162px;
     border: 1px solid black;
     padding: .5rem;
     height: 200px;
