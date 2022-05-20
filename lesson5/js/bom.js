@@ -1,6 +1,6 @@
 const list = document.querySelector('ul');
-const input = document.querySelector('input');
-const button = document.querySelector('button');
+const input = document.querySelector('favchap');
+const button = document.querySelector('addbutton');
 
 button.addEventListener('click', () => {
     const myItem = input.value;
@@ -13,7 +13,7 @@ button.addEventListener('click', () => {
     listItem.appendChild(listText);
     listText.textContent = myItem;
     listItem.appendChild(listBtn);
-    listBtn.textContent = 'Delete';
+    listBtn.textContent = 'X';
     list.appendChild(listItem);
 
     listBtn.addEventListener('click', () => {
@@ -21,4 +21,4 @@ button.addEventListener('click', () => {
     });
 
     input.focus();
-})
+});
