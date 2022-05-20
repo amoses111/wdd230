@@ -37,6 +37,7 @@ nav {
 
 .navigation li:first-child {
     display: block;
+    border: 1px solid #F1FFFA;
 }
 
 .navigation li {
@@ -87,6 +88,10 @@ footer {
     font-family: 'Koulen', cursive;
 }
 
+#footerlogo {
+    display: none;
+}
+
 a img {
     max-width: 35px;
 }
@@ -121,19 +126,48 @@ footer .hr {
 }
 
 #hero {
+    position: relative;
     box-sizing: border-box;
     margin: 1rem auto;
     border: 1px solid black;
     padding: .5rem;
     height: 200px;
+    background-color: #D5C7BC;
+    font-family: 'Work Sans', sans-serif;
 }
+
+#hero img {
+    width: 100%;
+    max-height: 100%;
+}
+
+#top-left {
+  color: #F1FFFA;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  padding: .75rem;
+  background-color: #785964;
+}
+
+#bottom-right {
+  color: #F1FFFA;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  padding: .75rem;
+  background-color: #785964;
+}
+
 
 #weather {
     box-sizing: border-box;
-    margin: 1rem auto;
     border: 1px solid black;
+    margin-bottom: 18px;
     padding: .5rem;
     height: 200px;
+    background-color: #D5C7BC;
+    font-family: 'Work Sans', sans-serif;
 }
 
 #spotlights {
@@ -142,6 +176,8 @@ footer .hr {
     border: 1px solid black;
     padding: .5rem;
     height: 200px;
+    background-color: #D5C7BC;
+    font-family: 'Work Sans', sans-serif;
 }
 
 #spotlights p {
@@ -154,10 +190,12 @@ footer .hr {
 
 #event {
     box-sizing: border-box;
-    margin: 1rem auto;
+    margin-bottom: 180px;
     border: 1px solid black;
     padding: .5rem;
     height: 200px;
+    background-color: #D5C7BC;
+    font-family: 'Work Sans', sans-serif;
 }
 
 #join {
@@ -166,13 +204,16 @@ footer .hr {
     border: 1px solid black;
     padding: .5rem;
     height: 200px;
+    background-color: #D5C7BC;
+    font-family: 'Work Sans', sans-serif;
 }
 
 #news {
     box-sizing: border-box;
-    margin-bottom: 162px;
     border: 1px solid black;
     padding: .5rem;
     height: 200px;
+    background-color: #D5C7BC;
+    font-family: 'Work Sans', sans-serif;
 }
 
