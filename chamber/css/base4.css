@@ -151,6 +151,7 @@ footer .hr {
     padding: .5rem;
     background-color: #D5C7BC;
     font-family: 'Work Sans', sans-serif;
+    text-align: center;
 }
 
 #spotlights {
@@ -159,11 +160,19 @@ footer .hr {
     padding: .5rem;
     background-color: #D5C7BC;
     font-family: 'Work Sans', sans-serif;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: .5rem;
 }
 
-#spotlights p {
+#spotp img {
+    max-height: 100%;
+}
+
+#spotp {
     border: 1px solid black;
     padding: .5rem;
+    text-align: center;
 }
 
 #event {
@@ -171,6 +180,7 @@ footer .hr {
     padding: .5rem;
     background-color: #D5C7BC;
     font-family: 'Work Sans', sans-serif;
+    text-align: center;
 }
 
 #join {
@@ -179,6 +189,7 @@ footer .hr {
     padding: .5rem;
     background-color: #D5C7BC;
     font-family: 'Work Sans', sans-serif;
+    text-align: center;
 }
 
 #news {
@@ -187,5 +198,6 @@ footer .hr {
     padding: .5rem;
     background-color: #D5C7BC;
     font-family: 'Work Sans', sans-serif;
+    text-align: center;
 }
 

@@ -19,7 +19,7 @@
     #hero {grid-column: 2/3; grid-row: 1/3; width: 100%;}
     #news {grid-column: 2/3; grid-row: 3/4; width: 100%;}
     #spotlights {grid-column: 3/4; grid-row: 1/4; width: 100%;
-                 display: grid; grid-template-rows: 1fr 1fr;}
+                 display: grid; grid-template-rows: 1fr 1fr 1fr; grid-gap: .25rem;}
     #join {grid-column: 1/2; grid-row: 3/4; width: 100%;}
     #weather {grid-column: 1/2; grid-row: 2/3; width: 100%; margin: 1rem auto;}
     #event {grid-column: 1/2; grid-row: 1/2; width: 100%; margin: 1rem auto;}
