@@ -208,6 +208,10 @@ footer .hr {
     background-color: #785964;
     color: #F1FFFA;
     font-family: 'Koulen', cursive;
-    margin: .5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    font-size: xx-large;
+    margin: .25rem;
 }
 

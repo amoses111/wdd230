@@ -2,7 +2,7 @@ const list = document.querySelector('ul');
 const input = document.querySelector('favchap');
 const button = document.querySelector('addbutton');
 
-button.addEventListener('click', () => {
+button.addEventListener('click', function() {
     const myItem = input.value;
     input.value = '';
 
@@ -10,15 +10,17 @@ button.addEventListener('click', () => {
     const listText = document.createElement('span');
     const listBtn = document.createElement('button');
 
+    list.appendChild(listItem);
     listItem.appendChild(listText);
     listText.textContent = myItem;
-    listItem.appendChild(listBtn);
     listBtn.textContent = 'X';
-    list.appendChild(listItem);
+    listItem.appendChild(listBtn);
+    
 
-    listBtn.addEventListener('click', () => {
+    listBtn.addEventListener('click', function() {
         list.removeChild(listItem);
     });
 
     input.focus();
 });
+
