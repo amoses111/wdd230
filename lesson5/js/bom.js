@@ -1,3 +1,4 @@
+const input = document.querySelector('#favchap');
 const button = document.querySelector('#addbutton');
 
 button.addEventListener('click', function() {
@@ -8,7 +9,7 @@ button.addEventListener('click', function() {
     if (myItem !== '') {
 
         const list = document.querySelector('#list');
-        const input = document.querySelector('#favchap');
+        
 
         const listItem = document.createElement("li");
         const listText = document.createElement("span");
