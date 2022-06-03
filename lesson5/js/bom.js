@@ -9,9 +9,9 @@ button.addEventListener('click', function() {
 
     if (myItem !== '') {
 
-        const listItem = document.createElement('li');
-        const listText = document.createElement('span');
-        const listBtn = document.createElement('button');
+        const listItem = document.createElement("li");
+        const listText = document.createElement("span");
+        const listBtn = document.createElement("button");
         
         listText.textContent = myItem;
         listBtn.textContent = 'X';
