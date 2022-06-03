@@ -1,9 +1,4 @@
-const list = document.querySelector('#list');
-const input = document.querySelector('#favchap');
 const button = document.querySelector('#addbutton');
-const listItem = document.createElement("li");
-const listText = document.createElement("span");
-const listBtn = document.createElement("button");
 
 button.addEventListener('click', function() {
     
@@ -11,6 +6,13 @@ button.addEventListener('click', function() {
     input.value = '';
 
     if (myItem !== '') {
+
+        const list = document.querySelector('#list');
+        const input = document.querySelector('#favchap');
+
+        const listItem = document.createElement("li");
+        const listText = document.createElement("span");
+        const listBtn = document.createElement("button");
         
         listText.textContent = myItem;
         listBtn.textContent = 'X';
