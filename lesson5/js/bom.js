@@ -8,7 +8,7 @@ button.addEventListener('click', function() {
     input.value = '';
 
     if (myItem !== '') {
-        
+
         const listItem = document.createElement('li');
         const listText = document.createElement('span');
         const listBtn = document.createElement('button');
