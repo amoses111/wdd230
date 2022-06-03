@@ -15,7 +15,7 @@ button.addEventListener('click', function() {
         
         listText.textContent = myItem;
         listBtn.textContent = 'X';
-        list.appendChild(listItem);
+        /*list.appendChild(listItem);*/
         listItem.appendChild(listText);
         listItem.appendChild(listBtn);
         
@@ -26,10 +26,6 @@ button.addEventListener('click', function() {
 
         input.focus();
 
-    }
-
-    else {
-        myItem = '';
     }
 });
 
