@@ -8,27 +8,25 @@ button.addEventListener('click', function() {
 
     if (myItem !== '') {
 
-        const list = document.querySelector('#list');
+        const list = document.querySelector('#ul');
         
-
         const listItem = document.createElement("li");
         const listText = document.createElement("span");
         const listBtn = document.createElement("button");
         
         listText.textContent = myItem;
         listBtn.textContent = 'X';
-        list.appendChild(listItem);
-        /*listItem.appendChild(listText);
-        listItem.appendChild(listBtn);*/
+        listItem.appendChild(listText);
+        listItem.appendChild(listBtn);
         
 
-        /*listBtn.addEventListener('click', function() {
+        listBtn.addEventListener('click', function() {
             list.removeChild(listItem);
-        });*/
-
-        input.focus();
+        });
 
     };
+
+    input.focus();
 });
 
     
