@@ -149,4 +149,9 @@ img[data-src] {
 img {
     filter: blur(0em);
     transition: filter 2s;
+    padding: .25rem;
   }
+
+img:hover {
+    background-color: black;
+}
