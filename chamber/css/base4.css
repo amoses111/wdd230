@@ -130,6 +130,7 @@ footer .hr {
   color: #F1FFFA;
   position: absolute;
   top: 25px;
+  left: 50px;
   padding: .75rem;
   background-color: #785964;
 }
@@ -137,7 +138,8 @@ footer .hr {
 #bottom-right {
   color: #F1FFFA;
   position: absolute;
-  bottom: 25px;
+  bottom: 20%;
+  right: 50px;
   padding: .75rem;
   background-color: #785964;
 }
@@ -158,8 +160,6 @@ footer .hr {
     background-color: #D5C7BC;
     font-family: 'Work Sans', sans-serif;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: .5rem;
 }
 
 #spotp img {

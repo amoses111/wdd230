@@ -15,11 +15,10 @@
     footer hr {grid-column: 1/3;}
     #footerlogo {display: inline;}
 
-    main {grid-template-columns: 1fr 1fr 1fr; }
+    main {grid-template-columns: 25% 1fr 25%; }
     #hero {grid-column: 2/3; grid-row: 1/3; width: 100%;}
     #news {grid-column: 2/3; grid-row: 3/4; width: 100%;}
-    #spotlights {grid-column: 3/4; grid-row: 1/4; width: 100%;
-                 display: grid; grid-gap: .25rem;}
+    #spotlights {grid-column: 3/4; grid-row: 1/4;}
     #join {grid-column: 1/2; grid-row: 3/4; width: 100%;}
     #weather {grid-column: 1/2; grid-row: 2/3; width: 100%; margin: 1rem auto;}
     #event {grid-column: 1/2; grid-row: 1/2; width: 100%; margin: 1rem auto;}
