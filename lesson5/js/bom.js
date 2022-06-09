@@ -15,7 +15,7 @@ button.addEventListener('click', function() {
         const listBtn = document.createElement("button");
         
         listText.textContent = myItem;
-        listBtn.textContent = 'X';
+        listBtn.textContent = '❌';
         listItem.appendChild(listText);
         listItem.appendChild(listBtn);
         list.appendChild(listItem);
