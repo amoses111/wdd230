@@ -18,6 +18,7 @@ button.addEventListener('click', function() {
         listBtn.textContent = 'X';
         listItem.appendChild(listText);
         listItem.appendChild(listBtn);
+        list.appendChild(listItem);
         
 
         listBtn.addEventListener('click', function() {
