@@ -9,12 +9,12 @@ body {
     text-align: center;
 }
 
-body img[data-src] {
+img[data-src] {
     filter: blur(0.2em);
   }
   
-body img {
+img {
     filter: blur(0em);
-    transition: filter 0.5s;
-}
+    transition: filter 2s;
+  }
   
