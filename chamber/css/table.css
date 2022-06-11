@@ -116,36 +116,6 @@ footer .hr {
     color: black;
 }
 
-.descriptions img {
-    max-width: 800px;
-}
 
-.descriptions {
-    max-width: 800px;
-    text-align: center;
-    padding: 2rem;
-}
 
-p {
-    text-align: center;
-    font-family: 'Work Sans', sans-serif;
-}
 
-img[data-src] {
-    filter: blur(0.2em);
-  }
-  
-img {
-    filter: blur(0em);
-    transition: filter 2s;
-    padding: .25rem;
-  }
-
-img:hover {
-    background-color: black;
-}
-
-#lastVisit {
-    text-align: center;
-    font-family: 'Work Sans', sans-serif;
-}
