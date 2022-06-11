@@ -1,16 +1,26 @@
-const todayDisplay = document.querySelector(".today");
-const visitsDisplay = document.querySelector(".visits");
+// initialize display elements
+let elapsed = document.querySelector("#lastVisit");
 
+// get the stored value in localStorage
+let lastvisit = Number(window.localStorage.getItem("lastvisit"));
 let numVisits = Number(window.localStorage.getItem("visits-ls"));
 
+// Calculate time between visits
+const currentvisit = Date.now() - lastvisit;
 
+// Convert time between visits into days
+const daysbetween = currentvisit / (1000 * 60 *60 * 24);
+
+// Create string update to be returned
 if (numVisits !== 0) {
-	visitsDisplay.textContent = numVisits;
+    elapsed.textContent = `${Math.round(daysbetween)}`;
 } else {
-	visitsDisplay.textContent = `1`;
+    elapsed.textContent = `This is your first visit`;
 }
 
+// increment the number of visits.
 numVisits++;
-localStorage.setItem("visits-ls", numVisits);
 
-todayDisplay.textContent = Date.now();
+// store the lastvisit and visits-ls data.
+localStorage.setItem("lastvisit", Date.now());
+localStorage.setItem("visits-ls", numVisits);

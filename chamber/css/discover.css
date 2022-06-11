@@ -68,6 +68,7 @@ main {
     display: block;
     margin: auto;
     width: 50%;
+    text-align: center;
 }
 
 footer {
@@ -140,6 +141,7 @@ footer .hr {
 
 p {
     text-align: center;
+    font-family: 'Work Sans', sans-serif;
 }
 
 img[data-src] {
@@ -154,4 +156,9 @@ img {
 
 img:hover {
     background-color: black;
+}
+
+#lastVisit {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
 }
