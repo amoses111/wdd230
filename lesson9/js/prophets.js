@@ -7,4 +7,20 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
         console.table(jsonObject);
+        prophets.forEach(displayProphets);
     });
+
+const prophets = jsonObject['prophets'];
+
+function displayProphets(prophet) {
+    let card = document.createElement('section');
+    let h2 = document.createElement('h2');
+    let portrait = document.createElement('img');
+
+    h2.textContent = prophet.name + ' ' + prophet.lastname;
+
+    
+}
+
+
+
