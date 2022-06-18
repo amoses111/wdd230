@@ -6,7 +6,7 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        //console.table(jsonObject);
+        console.table(jsonObject);
         const prophets = jsonObject['prophets'];
         prophets.forEach(displayProphets);
     });
@@ -16,14 +16,14 @@ function displayProphets(prophet) {
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
     let pa = document.createElement('p');
-    let pb = document.createElement('p')
+    let pb = document.createElement('p');
     let portrait = document.createElement('img');
 
     h2.textContent = `${prophet.name} ${prophet.lastname}`;
     pa.textContent = `Date of Birth: ${prophet.birthdate}`;
     pb.textContent = `Place of Birth: ${prophet.birthplace}`;
 
-    portrait.setAttribute('src', prophet.imageur1);
+    portrait.setAttribute('src', prophet.imageurl);
     portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}, Latter-day President number ${prophet.order}`);
     portrait.setAttribute('loading', 'lazy');
 
@@ -34,9 +34,9 @@ function displayProphets(prophet) {
 
 
     document.querySelector('div.cards').appendChild(card);
+
     
-    
-}
+};
 
 
 
