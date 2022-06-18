@@ -1,5 +1,7 @@
 header {
     text-align: center;
+    font-family: 'Fascinate Inline', cursive;
+    color: firebrick;
 }
 
 div {
@@ -9,12 +11,13 @@ div {
     margin: .25rem;
     padding: .5rem;
     text-align: center;
+    font-family: 'Comfortaa', cursive;
     
 }
 
 main {
     background-color: antiquewhite;
-    box-shadow: 25px 25px 25px 25px #888;
+    box-shadow: 5px 5px 5px 5px #888;
     border-radius: 0 0 5px 5px;
     padding: .75rem;
 }
@@ -29,5 +32,16 @@ section {
 
 img {
     box-shadow: 2px 2px 5px 2px black;
+}
+
+h2 {
+    color: firebrick;
+}
+
+footer {
+
+    text-align: center;
+    padding: 1rem;
+    color: firebrick;
 }
 
