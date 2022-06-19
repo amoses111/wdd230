@@ -22,7 +22,7 @@ function displayCompanies(business) {
 
     h2.textContent = `${business.name}`;
     pa.textContent = `Address: ${business.address}`;
-    pb.textContent = `Phone: ${business.phone}`;
+    pb.textContent = `Phone: ${business.phonenumber}`;
     pc.textContent = `Membership level: ${business.memlevel}`;
 
     portrait.setAttribute('src', business.imageurl);
