@@ -15,14 +15,12 @@ fetch(requestURL)
 function displayCompanies(business) {
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
-    let space = document.createElement('div');
     let pa = document.createElement('p');
     let pb = document.createElement('p');
     let pc = document.createElement('p');
     let portrait = document.createElement('img');
 
     h2.textContent = `${business.name}`;
-    space.textContent = ``;
     pa.textContent = `Address: ${business.address}`;
     pb.textContent = `Phone: ${business.phonenumber}`;
     pc.textContent = `Membership level: ${business.memlevel}`;
@@ -32,9 +30,7 @@ function displayCompanies(business) {
     portrait.setAttribute('loading', 'lazy');
 
     card.appendChild(h2);
-    card.appendChild(space);
     card.appendChild(portrait);
-    card.appendChild(space);
     card.appendChild(pa);   
     card.appendChild(pb);
     card.appendChild(pc);
