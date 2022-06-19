@@ -1,4 +1,4 @@
-const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
+const requestURL = 'json/data.json';
 const cards = document.querySelector('.cards');
 
 fetch(requestURL)
@@ -7,29 +7,32 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
         console.table(jsonObject);
-        const prophets = jsonObject['prophets'];
-        prophets.forEach(displayProphets);
+        const companies = jsonObject['companies'];
+        companies.forEach(displayCompanies);
     });
 
 
-function displayProphets(prophet) {
+function displayCompanies(business) {
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
     let pa = document.createElement('p');
     let pb = document.createElement('p');
+    let pc = document.createElement('p');
     let portrait = document.createElement('img');
 
-    h2.textContent = `${prophet.name} ${prophet.lastname}`;
-    pa.textContent = `Date of Birth: ${prophet.birthdate}`;
-    pb.textContent = `Place of Birth: ${prophet.birthplace}`;
+    h2.textContent = `${business.name}`;
+    pa.textContent = `Address: ${business.address}`;
+    pb.textContent = `Phone: ${business.phone}`;
+    pc.textContent = `Membership level: ${business.memlevel}`;
 
-    portrait.setAttribute('src', prophet.imageurl);
-    portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}, Latter-day President number ${prophet.order}`);
+    portrait.setAttribute('src', business.imageurl);
+    portrait.setAttribute('alt', `Image of ${business.name}, image number ${business.order}`);
     portrait.setAttribute('loading', 'lazy');
 
     card.appendChild(h2);
     card.appendChild(pa);
     card.appendChild(pb);
+    card.appendChild(pc);
     card.appendChild(portrait);
 
 
