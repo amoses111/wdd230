@@ -1,7 +1,7 @@
 {
     "companies": [
       {
-        "imageurl": "https://images.app.goo.gl/4VXZ1WQ6hZzZWhNU7",
+        "imageurl": "images/GESA.png",
         "name": "Gesa Credit Union",
         "address": "4500 W. 27th Ave., Kennewick, Washington United States 99338",
         "phonenumber": "509-378-3100",
@@ -9,7 +9,7 @@
         "order": 1
       },
       {
-        "imageurl": "https://images.app.goo.gl/L8jySb6W4WctKLSj8",
+        "imageurl": "images/kadlec.jpg",
         "name": "Kadlec Clinic",
         "address": "3900 S Zintel Way, Kennewick, Washington 99337",
         "phonenumber": "509-942-3125",
@@ -17,7 +17,7 @@
         "order": 2
       },
       {
-        "imageurl": "https://images.app.goo.gl/vtigHN8Df6CP1TQq5",
+        "imageurl": "images/chanchiro.jpg",
         "name": "Chan Chiropractic and Massage",
         "address": "4339 W Kennewick Ave, Kennewick, WA 99336",
         "phonenumber": "509-735-0311",
@@ -25,7 +25,7 @@
         "order": 3
       },
       {
-        "imageurl": "https://images.app.goo.gl/Q31jJTmrNNhsSoD3A",
+        "imageurl": "images/lambweston.png",
         "name": "Lamb Weston",
         "address": "8701 W Gage Blvd, Kennewick, WA 99336",
         "phonenumber": "509-735-4651",
@@ -33,7 +33,7 @@
         "order": 4
       },
       {
-        "imageurl": "https://images.app.goo.gl/r9hbwduJZ7Y7HLa88",
+        "imageurl": "images/apollo.jpg",
         "name": "Apollo",
         "address": "1133 W Columbia Dr, Kennewick, WA 99336",
         "phonenumber": "509-586-1104",
@@ -41,7 +41,7 @@
         "order": 5
       },
       {
-        "imageurl": "https://images.app.goo.gl/GYghEbDDosytCA1D6",
+        "imageurl": "images/yokes.jpg",
         "name": "Yoke's Fresh Market",
         "address": "1410 W 27th Ave, Kennewick, WA 99337",
         "phonenumber": "509-585-0888",
@@ -49,7 +49,7 @@
         "order": 6
       },
       {
-        "imageurl": "https://images.app.goo.gl/PddBonq1VAmcWuEo8",
+        "imageurl": "images/Trios.jpg",
         "name": "Trios Health",
         "address": "3810 Plaza Way, Kennewick, WA 99338",
         "phonenumber": "509-221-7000",
@@ -57,7 +57,7 @@
         "order": 7
       },
       {
-        "imageurl": "https://images.app.goo.gl/YDFayDvEwZXNeTVF7",
+        "imageurl": "images/senske.jpg",
         "name": "Senske Services",
         "address": "410 N Quay St, Kennewick, WA 99336",
         "phonenumber": "509-374-5000",
@@ -65,7 +65,7 @@
         "order": 8
       },
       {
-        "imageurl": "https://images.app.goo.gl/kbXVADMukZtL9eMu8",
+        "imageurl": "images/popdonuts.jpg",
         "name": "Popular Donuts",
         "address": "101 N Union St #204, Kennewick, WA 99336",
         "phonenumber": "509-783-0843",
