@@ -29,6 +29,6 @@ function displayResults(weatherData) {
     const desc = weatherData.weather[0].description;
     weatherIcon.setAttribute('src', imagesrc);
     weatherIcon.setAttribute('alt', desc);
-    captionDesc = innerHTML = desc;
+    captionDesc.innerHTML = desc;
 
 }
