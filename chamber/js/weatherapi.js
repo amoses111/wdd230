@@ -30,5 +30,16 @@ function displayResults(weatherData) {
     weatherIcon.setAttribute('src', imagesrc);
     weatherIcon.setAttribute('alt', desc);
     captionDesc.innerHTML = desc;
+    desc[0].toUppercase() + desc.substring(1);
+}
 
+function capitalize(desc) 
+{
+    desc = desc.split(" ");
+
+    for (var i = 0, x = desc.length; i < x; i++) {
+        desc[i] = desc[i][0].toUpperCase() + desc[i].substr(1);
+    }
+
+    return desc.join(" ");
 }
