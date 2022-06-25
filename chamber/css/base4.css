@@ -130,7 +130,7 @@ footer .hr {
   color: #F1FFFA;
   position: absolute;
   top: 25px;
-  left: 50px;
+  left: 30px;
   padding: .75rem;
   background-color: #785964;
 }
@@ -138,8 +138,8 @@ footer .hr {
 #bottom-right {
   color: #F1FFFA;
   position: absolute;
-  bottom: 20%;
-  right: 50px;
+  top: 25px;
+  right: 30px;
   padding: .75rem;
   background-color: #785964;
 }
