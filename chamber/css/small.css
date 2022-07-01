@@ -292,18 +292,20 @@ tfoot td {
 /*Join Page*/
 
 #mainjoin {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-    grid-gap: 1px;
-    text-align: center;
     font-family: 'Work Sans', sans-serif;
+    display: flex;
+	flex-flow: column;
+    justify-content: center;
+	text-align: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 form {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(1fr));
     grid-gap: 1px;
-    background-color: #D5C7BC;
     padding: .25rem;
     text-align: left;
 }
@@ -313,6 +315,7 @@ form fieldset {
     border: 1px solid black;
     border-radius: 10px;
     padding: .5rem 2%;
+    background-color: #D5C7BC;
 }
 
 form legend {
