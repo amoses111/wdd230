@@ -260,6 +260,29 @@ tfoot td {
     background-color: #7FB9C2;
 }
 
+/*weather api*/
+#weatherapi {
+    display: grid;
+    grid-template-columns: 1fr 500px 1fr;
+    text-align: center;
+}
+
+#h1weather {
+    grid-column: 2/3;
+    padding: 1rem;
+}
+
+#mainweather {
+    border: 1px solid black;
+    grid-column: 2/3;
+}
+
+#footerweather {
+    padding: .5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column: 2/3;
+}
 
 
 

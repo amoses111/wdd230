@@ -7,11 +7,12 @@
     <title>Weather API</title>
     <meta name="description" content="Stay up to date with the current weather">
     <script src="js/weatherapi.js" defer></script>
-    <link rel="stylesheet" href="css/weatherapi.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
 </head>
-<body>
-    <main>
-        <h1>OpenWeatherMap.org API Test</h1>
+<body id="bodyweather">
+    <main id="mainweather">
+        <h1 id="h1weather">OpenWeatherMap.org API Test</h1>
         <p>The current temperature in Fairbanks, Alaska is 
             <span id="current-temp"></span> &deg;F
         </p>
@@ -23,7 +24,7 @@
             <figcaption></figcaption>
         </figure>
     </main>
-    <footer>
+    <footer id="footerweather">
         <p>
             &copy;2022 | Source: openweathermap.org | Aaron Moses
         </p>
