@@ -304,7 +304,7 @@ tfoot td {
 
 form {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(1fr));
+    grid-template-columns: 1fr;
     grid-gap: 1px;
     padding: .25rem;
     text-align: left;
