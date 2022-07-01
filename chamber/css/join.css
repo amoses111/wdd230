@@ -146,7 +146,7 @@ form label.top, form div {
     font-size: .8rem;
 }
 
-form label.top input, form label.top select, textarea {
+form label.top input, textarea, form label.top select {
     border: solid 1px black;
     color: black;
     background-color: white;
@@ -161,7 +161,7 @@ form label.top input, form label.top select {
     max-width: 50rem;
 }
 
-form label.sbs {
+form label.mem {
     display: block;
     padding: .75rem 0;
     color: black;
@@ -190,7 +190,6 @@ form label.top input:required:valid {
     color: black;
 }
 
-/* Thanks */
 .thanks {
     background-color: #0D350D;
     padding: 2rem;
