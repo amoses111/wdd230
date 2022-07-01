@@ -290,9 +290,21 @@ tfoot td {
 }
 
 /*Join Page*/
+
+#mainjoin {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    grid-gap: 1px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
 form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1fr));
+    grid-gap: 1px;
     background-color: #D5C7BC;
-    padding: 2rem;
+    padding: .25rem;
     text-align: left;
 }
 
@@ -335,10 +347,11 @@ form label.top input, form label.top select {
     max-width: 50rem;
 }
 
-form label.mem {
+.mem {
     padding: .75rem 0;
     color: black;
-    display: block;
+    display: flex;
+    align-items: center;
 }
 
 form input.submitBtn {
@@ -364,8 +377,20 @@ form label.top input:required:valid {
     color: black;
 }
 
-input [type="radio"] {
-    margin-left: 25px;
+[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+[type="checkbox"] {
+    box-sizing: border-box;
+    padding: 0;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
 }
 
 .thanks {
