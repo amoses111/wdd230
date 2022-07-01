@@ -211,3 +211,56 @@ footer .hr {
     margin: .25rem;
 }
 
+/*Table build*/
+table {
+	margin: 10px auto;
+	box-shadow: 0 0 30px gray;
+    font-family: 'Ubunto', sans-serif;
+	border-collapse: collapse;
+    
+}
+
+th, td {
+	padding: 5px 15px;
+    border: 2px solid rgb(177, 171, 171);
+}
+
+th {
+	background-color: #628CA6;
+    color: white;
+    font-size: 1.1em;
+}
+
+tr:first-child th {
+	background-color: #7FB9C2;
+    color: black;
+    font-size: 1.25em;
+}
+
+tr {
+    background-color: #E7F0ED;
+}
+
+td {
+	text-align: center;
+}
+
+.nov {
+    background-color: #628CA6;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #E7FFED;
+    
+}
+
+tfoot td {
+    font-size: 1em;
+    background-color: #7FB9C2;
+}
+
+
+
+
+
