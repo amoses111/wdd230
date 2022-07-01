@@ -66,7 +66,7 @@ nav {
 }
 
 /*Home page*/
-main {
+#homemain {
     grid-gap: .5rem;
 }
 
@@ -407,10 +407,11 @@ form label.top input:required:valid {
 
 /*discover page*/
 #discovermain {
-    display: block;
-    margin: auto;
-    width: 50%;
-    text-align: center;
+    display: flex;
+	flex-flow: column;
+    justify-content: center;
+	text-align: center;
+    align-items: center;
 }
 
 .descriptions img {
@@ -421,6 +422,7 @@ form label.top input:required:valid {
     max-width: 800px;
     text-align: center;
     padding: 2rem;
+    grid-column: 2/3;
 }
 
 #discoverp {
