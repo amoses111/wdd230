@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-html, #wrapper {
+html {
     width: 100%;
     min-height: 100%;
 }
