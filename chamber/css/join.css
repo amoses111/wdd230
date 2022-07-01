@@ -190,8 +190,8 @@ form label.top input:required:valid {
     color: black;
 }
 
-.radiobtn {
-    margin-right: 25px;
+input [type="radio"] {
+    margin-left: 25px;
 }
 
 .thanks {
