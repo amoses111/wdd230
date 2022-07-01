@@ -115,7 +115,7 @@ footer .hr {
     color: black;
 }
 
-/* Join */
+/* Join page*/
 form {
     background-color: #D5C7BC;
     padding: 2rem;
@@ -146,7 +146,7 @@ form label.top, form div {
     font-size: .8rem;
 }
 
-form label.top input, textarea, form label.top select {
+form label.top input, form label.middle input, form label.top select {
     border: solid 1px black;
     color: black;
     background-color: white;
@@ -162,9 +162,9 @@ form label.top input, form label.top select {
 }
 
 form label.mem {
-    display: block;
     padding: .75rem 0;
     color: black;
+    display: block;
 }
 
 form input.submitBtn {
@@ -188,6 +188,10 @@ form label.top input:required:valid {
 
 .required {
     color: black;
+}
+
+.radiobtn {
+    margin-right: 25px;
 }
 
 .thanks {
