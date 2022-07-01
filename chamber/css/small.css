@@ -380,5 +380,48 @@ input [type="radio"] {
 }
 
 
+/*discover page*/
+#discovermain {
+    display: block;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.descriptions img {
+    max-width: 800px;
+}
+
+.descriptions {
+    max-width: 800px;
+    text-align: center;
+    padding: 2rem;
+}
+
+#discoverp {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+img {
+    filter: blur(0em);
+    transition: filter 2s;
+    padding: .25rem;
+  }
+
+img:hover {
+    background-color: #785964;
+}
+
+#lastVisit {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
 
 
