@@ -138,12 +138,20 @@ nav {
 }
 
 #join {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     margin: 1rem auto;
     border: 1px solid black;
     padding: .5rem;
     background-color: #D5C7BC;
     font-family: 'Work Sans', sans-serif;
     text-align: center;
+}
+
+#join img {
+    width: 50%;
 }
 
 #news {
