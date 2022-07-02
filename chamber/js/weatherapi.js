@@ -29,6 +29,11 @@ function displayResults(weatherData) {
     const desc = weatherData.weather[0].description;
     weatherIcon.setAttribute('src', imagesrc);
     weatherIcon.setAttribute('alt', desc);
-    captionDesc.innerHTML = desc;
-    desc[0].toUppercase() + desc.substring(1);
+
+    const conditions = desc.split(' ');
+    captionDesc.textContent = conditions.map((ccondition) => {
+        return ccondition[0].toUpperCase() + ccondition.substring(1);
+    }).join(' ');
+
+    /*desc[0].toUppercase() + desc.substring(1);*/
 }
