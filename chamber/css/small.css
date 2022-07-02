@@ -556,6 +556,20 @@ img:hover {
 }
 
 
+/*thank you*/
+
+#thankyoubody {
+    display: flex;
+	flex-flow: column;
+    justify-content: center;
+	text-align: center;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#thankyoup {
+    padding: 20rem;
+}
 
 
 
