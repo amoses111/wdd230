@@ -99,7 +99,11 @@ nav {
   right: 30px;
   padding: .75rem;
   background-color: #785964;
-  text-decoration: none;
+}
+
+#bottom-right:hover {
+    background-color: aliceblue;
+    color: black;
 }
 
 #weather {
