@@ -51,7 +51,54 @@
             </div>
             <div class="date"></div>
         </header>
-        <main></main>
+        <main id="joinmain">
+
+            <section id="contactinfo">
+                <h1 id="contacth1">
+                    Contact Us
+                </h1>
+                <p class="contactp">
+                    Email: info@tricityregionialchamber.com
+                </p>
+                <p class="contactp">
+                    Phone: (509) 736-0510
+                </p>
+                <p class="contactp">
+                    Fax: (509) 783-1773
+                </p>
+                <p class="contactp">
+                    Hours: Monday - Friday | 8am to 5pm
+                </p>
+            </section>
+            
+
+            <form method="get" action="thankyou.html">
+                <fieldset class="general">
+                    <legend><strong>Contact Form</strong></legend>
+                    <label class="top">Name<span class="required">*</span> <input type="text" name="fname"
+                            placeholder="Ronald Weasley" required></label>
+                    <br>
+                    <label class="top">Business<span class="required">*</span> <input type="text" name="lname"
+                            placeholder="i.e. Weasley's Wizard Wheezes" required></label>
+                    <br>
+                    <label class="top">Question/Concern<span class="required">*</span> <input type="text" name="email" required></label>
+                    <br>
+
+                
+
+                <fieldset>
+                    <legend><strong>Confirm and Submit</strong></legend>
+                    <label class="mem"><input type="checkbox" id="notify" name="checkbtn">I would like to receive
+                        notifications from the Tri-cities Chamber of Commerce.</label>
+                    <label class="mem"><input type="checkbox" id="agree" name="checkbtn" required>
+                        I agree to release my informtion to members of the Tri-Cities Chamber
+                        of Commerce.<span class="required">*</span></label>
+                </fieldset>
+
+                <input type="submit" value="Submit" class="submitBtn">
+
+            </form>
+        </main>
 
         <footer>
             <span id="fimage">

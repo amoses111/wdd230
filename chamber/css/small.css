@@ -529,6 +529,28 @@ img:hover {
     color: #785964;
 }
 
+/*contact us*/
+.contactp {
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+	flex-flow: column;
+    margin: 30px;
+}
+
+#contactinfo {
+    background-color: #D5C7BC;
+    border: solid 1px black;
+    border-radius: 4px;
+    margin: 20px;
+}
+
+#contacth1 {
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+	flex-flow: column;
+    margin: 30px;
+}
+
 
 
 
