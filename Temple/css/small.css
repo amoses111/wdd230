@@ -17,6 +17,15 @@ header {
     align-items: center;
 }
 
+.navigation li:first-child {
+    display: block;
+    border: 1px solid #F1FFFA;
+}
+
+.navigation li {
+    display: none;
+}
+
 nav {
     padding: 0;
 }
