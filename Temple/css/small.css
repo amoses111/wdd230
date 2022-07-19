@@ -73,6 +73,14 @@ main img {
     padding: .5rem .5rem 0rem .5rem;
 }
 
+section a {
+    color: black;
+}
+
+section a:visited {
+    color: #3D3D3D;
+}
+
 footer {
     border: 1px solid black;
     padding: .5rem;
@@ -96,4 +104,8 @@ footer a:visited {
 
 section {
     border: 1px solid #9CD2E0;
+}
+
+hr {
+    width: 250px;
 }

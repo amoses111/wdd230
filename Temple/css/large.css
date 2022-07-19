@@ -1,0 +1,11 @@
+@media screen and (min-width: 65em) {
+    .navigation {display: flex;}
+    .navigation li {display: block; flex: 1 1 auto;}
+    .navigation a {text-align: center;}
+    .navigation li:first-child {display: none;}
+
+    header {grid-template-columns: 1fr 1fr 1fr 1fr;}
+
+    #logo {display: inline;}
+
+}

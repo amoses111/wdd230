@@ -13,13 +13,14 @@
     <link rel="stylesheet" href="css/normalize.css">
     <script src="js/date.js" defer></script>
     <script src="js/menu.js" defer></script>
+    <script src="js/weather.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=EB+Garamond:wght@700&family=Fascinate+Inline&family=Quicksand&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <!--<img id="logo" src="images/templelogo.webp" alt="logo">-->
+        <img id="logo" src="images/templelogo.webp" alt="logo">
         <nav>
             <ul class="navigation responsive">
                 <li>
@@ -51,6 +52,7 @@
     <!--<p>weather alerts if applicable, make it a closeable message at top of screen</p>-->
     <main id="homemain">
         <section id="featuredtemple">
+            <h2>Meridian, Idaho Temple</h2>
             <picture>
                 <source srcset="images/eagletemple_medium.webp" 
                 media="(min-width: 50em) and (max-width: 63.9em)">
@@ -68,17 +70,47 @@
             </p>
         </section>
         <section id="makereservation">
+            <h2>Book a Reservation</h2>
             <img src="images/lobby.webp" alt="lobby">
-            <p>Make a reservation!</p>
+            <p>
+                See a list of our specialized services and amenities including 
+                <a href="receptions.html">wedding receptions</a>, 
+                a fully equipped fitness center, and an indoor pool!
+                Find a hotel near you and book a <a href="reservations.html">reservation</a> today.
+            </p>
         </section>
         <section id="contactinfo">
-            <p>contact information</p>
+            <h2>Contact Us</h2>
+            <p>(208) 111-2222</p>
+            <p>templeinnandsuites4@gmail.com</p>
+            <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
         </section>
         <section id="currentweather">
-            <p>current weather (current temp, condition description, humidity)</p>
+            <h2>Today's Forecast</h2>
+            <h3>Meridian, Idaho</h3>
+            <hr>
+            <p>
+                Current Temperature: <span id="current-temp"></span> &deg;F
+            </p>       
+            <figure>
+                <img src="current" alt="weather" id="weather-icon" />
+                <figcaption></figcaption>
+            </figure>
+            <p>
+                Humidity: <span id="humidity"></span>%
+            </p>
         </section>
         <section id="threedayforecast">
-            <p>three day forecast</p>
+            <h2>Three Day Weather Forecast</h2>
+            <p>
+                Thursday:  <span id="day2">101</span>&deg;F
+            </p>
+           <p>
+             Friday: <span id="day3">95</span>&deg;F
+           </p>
+           <p>
+            Saturday: <span id="day4">97</span>&deg;F
+           </p>
         </section>    
     </main>
     <footer>
