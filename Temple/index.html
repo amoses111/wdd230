@@ -48,13 +48,38 @@
             <a href="https://www.linkedin.com/"><img src="images/linkedinicon.webp" alt="linkedin"></a>
         </div>
     </header>
-    <p>Make a reservation!</p>
-    <p>contact information</p>
-    <p>summary of featured temple</p>
-    <p>current weather (current temp, condition description, humidity)</p>
-    <p>weather alerts if applicable, make it a closeable message at top of screen</p>
-    <p>three day forecast</p>
+    <!--<p>weather alerts if applicable, make it a closeable message at top of screen</p>-->
+    <main id="homemain">
+        <section id="featuredtemple">
+            <picture>
+                <source srcset="images/eagletemple_medium.webp" 
+                media="(min-width: 50em) and (max-width: 63.9em)">
+                <source srcset="images/eagletemple_large.webp" 
+                media="(min-width: 64em)">
 
+                <img src="images/eagletemple_small.webp" alt="eagletemple">
+            </picture>
+            <p>The Meridian, Idaho temple was announced on April 2, 2011 by President Thomas S.
+                Monson. It is the 158th temple built by the Church of Jesus Christ of Latter-day Saints.
+                The temple interior was built with marble imported from Italy, Egypt and Spain.
+                Some of the temple's designs include the syringa (Idaho' state flower), 
+                golds, blues and greens in the wool rugs and stained glass, 
+                which reflect the harvest and nature of Idaho.
+            </p>
+        </section>
+        <section id="makereservation">
+            <p>Make a reservation!</p>
+        </section>
+        <section id="contactinfo">
+            <p>contact information</p>
+        </section>
+        <section id="currentweather">
+            <p>current weather (current temp, condition description, humidity)</p>
+        </section>
+        <section id="threedayforecast">
+            <p>three day forecast</p>
+        </section>    
+    </main>
     <footer>
         <p>
             &copy; 2022 | <a href="contactus.html">Contact us</a> | <a href="https://www.google.com/maps/place/4800+Montgomery+Dr,+Bethesda,+MD+20814/@39.0114823,-77.1141461,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7cbfa25c4d6d9:0x724007a05c8f4c37!8m2!3d39.0114782!4d-77.1119574">Directions</a> | Last modified: <span id="modified"></span>

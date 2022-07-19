@@ -1,5 +1,4 @@
 * {
-    margin: 0;
     box-sizing: border-box;
 }
 
@@ -15,6 +14,7 @@ header {
     width: 100%;
     text-align: center;
     align-items: center;
+    border: 1px solid black;
 }
 
 nav {
@@ -61,6 +61,14 @@ nav {
     display: none;
 }
 
+#homemain {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: .5rem;
+    padding: 1rem;
+}
+
 footer {
     border: 1px solid black;
     padding: .5rem;
@@ -72,4 +80,8 @@ footer {
     text-align: center;
     color: black;
     font-family: 'EB Garamond', serif;
+}
+
+section {
+    border: 1px solid #9CD2E0;
 }
