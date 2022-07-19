@@ -37,6 +37,7 @@ li {
 
 .menu:hover {
     background-color: #E9E9E9;
+    color: #3D3D3D;
 }
 
 footer {
@@ -44,7 +45,7 @@ footer {
     padding: .5rem;
     background-color: #8FB8D9;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     width: 100%;
     align-items: center;
     text-align: center;
