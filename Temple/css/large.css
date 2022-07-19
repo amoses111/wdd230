@@ -4,8 +4,10 @@
     .navigation a {text-align: center;}
     .navigation li:first-child {display: none;}
 
-    header {grid-template-columns: 1fr 1fr 1fr 1fr;}
+    header {grid-template-columns: 200px 1fr 1fr 1fr;}
 
     #logo {display: inline;}
+
+    #social {display: flex; flex-direction: row; flex-flow: row;justify-content: center;}
 
 }
