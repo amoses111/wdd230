@@ -1,0 +1,41 @@
+{
+    "temples": [
+      {
+        "imageurl": "images/eagletemple_temples.webp",
+        "name": "Meridian Idaho Temple",
+        "address": "7355 N Linder Rd, Meridian, ID 83646",
+        "phonenumber": "208-957-7300",
+        "closures": "October 1, October 31 - November 14, November 23 - 24, December 24, December 31",
+        "history": "The Meridian, Idaho temple was announced on April 2, 2011 by President Thomas S. Monson. It is the 158th temple built by the Church of Jesus Christ of Latter-day Saints. The temple interior was built with marble imported from Italy, Egypt and Spain. Some of the temple's designs include the syringa (Idaho' state flower), golds, blues and greens in the wool rugs and stained glass, which reflect the harvest and nature of Idaho.",
+        "order": 1
+      },
+      {
+        "imageurl": "images/idahofallstemple_temples.webp",
+        "name": "Idaho Falls Idaho Temple",
+        "address": "1000 Memorial Dr, Idaho Falls, ID 83402",
+        "phonenumber": "208-522-7669",
+        "closures": "October 1, November 23 - 24, December 24, December 31",
+        "history": "The Idaho Falls Temple was announced on March 3, 1937. It is the 8th operating temple world-wide, the first temple in Idaho, and the first temple with the single-spire design. The exterior of the building was completed in 1941, but due to World War II the interior could not be completed for another 4 years. The temple ended up being dedicated one month after the war ended in 1945.",
+        "order": 2
+      },
+      {
+        "imageurl": "images/kennewicktemple_temples.webp",
+        "name": "Columbia River Washington Temple",
+        "address": "969 Gage Blvd, Richland, WA 99352",
+        "phonenumber": "509-628-0990",
+        "closures": "October 1, November 23 - 24, December 24, December 31",
+        "history": "The Columbia River Washington Temple is the 107th operating temple in the world and was announced on April 2, 2000. With this temple the use of murals to decorate one or more ordinance rooms returned to mainstream use in the building of other temples. During the construction, people were allowed to write their names on river rock and those stones were then incorporated into the building itself.",
+        "order": 3
+      },
+      {
+        "imageurl": "images/portlandtemple_temples.webp",
+        "name": "Portland Oregon Temple",
+        "address": "13600 Kruse Oaks Blvd, Lake Oswego, OR 97035",
+        "phonenumber": "503-639-7066",
+        "closures": "July 18 - August 15, October 1, November 23 - 24, December 24, December 31",
+        "history": "The Portland Oregon Temple was announced April 7, 1984 and is the 42nd operating temple. University of New Mexico historian Ferenc Morton Szasz called this temple one of the most impressive religious structures of the entire western postwar (World War II) building boom.",
+        "order": 4
+      }
+      
+    ]
+}

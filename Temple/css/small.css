@@ -61,6 +61,8 @@ nav {
     display: none;
 }
 
+/*HOME*/
+
 #homemain {
     text-align: center;
     display: grid;
@@ -109,3 +111,38 @@ section {
 hr {
     width: 250px;
 }
+
+/*END - HOME*/
+
+/*TEMPLES*/
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1px;
+    margin: .25rem;
+    text-align: center;
+    
+}
+
+#templesection {
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    border: 1px solid #9CD2E0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#templeh2 {
+    color: black;
+}
+
+#templeh1 {
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+/*END - TEMPLES
