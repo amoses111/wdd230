@@ -146,3 +146,99 @@ hr {
 }
 
 /*END - TEMPLES
+
+/*RESERVATIONS*/
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1px;
+    padding: .25rem;
+    text-align: left;
+}
+
+form fieldset {
+    margin: 1rem;
+    border: 1px solid black;
+    padding: .5rem 2%;
+    background-color: #CECECE;
+}
+
+form legend {
+    color: black;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form span {
+    color: black;
+}
+
+form label.top, form div {
+    display: block;
+    padding-bottom: 1rem;
+    color: black;
+    font-size: .8rem;
+}
+
+form label.top input, form label.middle input, form label.top select {
+    border: solid 1px black;
+    color: black;
+    background-color: white;
+    width: 100%;
+    font-size: 1rem;
+    padding: .75rem;
+    display: block;
+}
+
+form label.top input, form label.top select {
+    max-width: 50rem;
+}
+
+.mem {
+    padding: .75rem 0;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #CECECE;
+    color: black;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: black 6px;
+}
+
+form label.top input:required:valid {
+    border-left: black;
+}
+
+.required {
+    color: red;
+}
+
+[type="checkbox"] {
+    box-sizing: border-box;
+    padding: 0;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+/*END - RESERVATIONS*/
+
+/*THANK YOU*/
+
+#thankyoubody {
+    text-align: center;
+    padding: 10rem;
+}
+
+/*END - THANK YOU*/

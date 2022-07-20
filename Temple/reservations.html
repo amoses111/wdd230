@@ -49,13 +49,48 @@
         </div>
     </header>
     <main id="reservationsmain">
-        <p>
-            The Reservation page contains a form that collects relevant information when 
-            making a normal stay reservation including the location, date, 
-            number and type of rooms, registrant's full name, email, phone, 
-            home state or country, and special accommodations/comments. 
-            Make sure to do some form validation.
-        </p>
+        <form method="get" action="thankyou.html">
+            <fieldset class="general">
+                <legend><strong>Information</strong></legend>
+                <label class="top">First Name<span class="required">*</span> <input type="text" name="fname"
+                        placeholder="Russell" required></label>
+                <br>
+                <label class="top">Last Name<span class="required">*</span> <input type="text" name="lname"
+                        placeholder="Nelson" required></label>
+                <br>
+                <label class="top">Email<span class="required">*</span> <input type="email" name="email"
+                        placeholder="prophet2022@email.com" required></label>
+                <br>
+                <label class="top">Phone<span class="required">*</span> <input type="tel" name="phone"
+                        placeholder="111-111-1111" required></label>
+                <br>
+                <label class="top">How many nights will you be staying?<span class="required">*</span> <input type="number" name="num"
+                        placeholder="3" required></label>
+                        <br>
+                <label class="top">Home City<span class="required">*</span> <input type="text" name="city"
+                        placeholder="Salt Lake City" required></label>
+                        <br>
+                <label class="top">Home State<span class="required">*</span> <input type="text" name="state"
+                        placeholder="Utah" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend><strong>Special Accomodations / Comments</strong></legend>
+                <label class="middle">
+                    <input type="text" name="description" placeholder="My son needs wheelchair access">
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend><strong>Confirm and Reserve a Room</strong></legend>
+                <label class="mem"><input type="checkbox" id="agree" name="checkbtn" required>I
+                    have read and agree to the terms and conditions of The Temple Inn & Suites.<span class="required">*</span>
+                </label>
+            </fieldset>
+
+            <input type="submit" value="Submit" class="submitBtn">
+
+        </form>
     </main>
     <footer>
         <p>

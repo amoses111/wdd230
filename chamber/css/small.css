@@ -408,17 +408,6 @@ form label.top input:required:valid {
     margin-right: 10px;
 }
 
-.thanks {
-    background-color: #0D350D;
-    padding: 2rem;
-    text-align: center;
-}    
-
-.thanks img {
-    max-width: 500px;
-    padding: 1rem;
-}
-
 
 /*discover page*/
 #discovermain {
