@@ -258,3 +258,19 @@ form label.top input:required:valid {
 }
 
 /*END - SERVICES*/
+
+/*RECEPTIONS*/
+
+#receptionsmain {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    text-align: center;
+    padding: 2rem 10rem;
+}
+
+#receptionsmain p {
+    padding: 1rem 15rem;
+}
+
+/*END - RECEPTIONS*/
