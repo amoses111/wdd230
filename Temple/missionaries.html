@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missionaries</title>
+    <link rel="icon" type="image/x-icon" href="images/templelogo.webp">
+    <meta name="description" content="Our special accomodations for full-time temple missionaries">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="js/date.js" defer></script>
+    <script src="js/menu.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=EB+Garamond:wght@700&family=Fascinate+Inline&family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img id="logo" src="images/templelogo.webp" alt="logo">
+        <nav>
+            <ul class="navigation responsive">
+                <li>
+                    <a class="menu" href="#">&#9776;</a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="temples.html">Temples</a>
+                </li>
+                <li>
+                    <a href="reservations.html">Reservations</a>
+                </li>
+                <li>
+                    <a href="services.html">Services</a>
+                </li>
+            </ul>
+        </nav>
+        <h1>
+            The Temple Inn & Suites
+        </h1> 
+        <div id="social">
+            <a href="https://www.facebook.com/"><img src="images/facebookicon.webp" alt="facebook"></a>
+            <br>
+            <a href="https://www.linkedin.com/"><img src="images/linkedinicon.webp" alt="linkedin"></a>
+        </div>
+    </header>
+    <main id="missionariesmain">
+
+        <section class="missionary">
+            <h2>
+                Temple Missionary Accomodations
+            </h2>
+            <hr>
+            <img src="images/eldermissionaries.webp" alt="mission">
+            <p>
+                A full-time temple mission is an incredible experience, not just for 
+                the missionaries on this side, but for those receiving 
+                the ordinances on the other side as well. 
+                Service can be hard though, and our goal is to make serving
+                as fulfilling and rewarding as possible!  
+            </p>
+            <p>
+                Full-time temple missionaries can stay up to two weeks, 
+                whereas normal guests are limited to one.
+            </p>
+            <p>
+                Laundry services are free for our missionary guests.
+            </p>
+            <p>
+                Missionaries may request the shuttle service to stop by the distribution center either
+                on the way to the temple or on the way back.
+            </p>
+            <p>
+                Loose button? Ripped seam? Take your damaged clothes to our in-house tailor!
+            </p>
+        </section>
+        <section class="missionary">
+            <h2>
+                Suites
+            </h2>
+            <hr>
+            <img src="images/hotelroom.webp" alt="room">
+            <p>
+                Our suites all come with either Queen size or King size beds.
+                Free wifi is included and each room features a 50" tv atop a spacious
+                wood cabinet with deep drawers for clothes or additional storage.
+            </p>
+            <p>
+                Each room has a kitchenette that includes a stove, microwave, overhead
+                cabinets, a toaster oven, and a fridge/freezer combo.
+            </p>
+            <p>
+                All rooms have a walk-in shower. These showers feature high water
+                pressure and we provide free, luxery soap, shampoo, conditioner,
+                and hand lotion.
+            </p>
+        </section>
+        <section class="missionary">
+            <h2>
+                Contact Us
+            </h2>
+            <hr>
+            <img src="images/platter.webp" alt="platter">
+            <p>
+                Didn't get the service you wanted? Questions or concerns?
+                We care about your opinion!
+                Contact us by infomation provided below or fill out the form 
+                at the bottom and we will respond as soon as we can.
+            </p>
+            <p>Phone: (208) 111-2222</p>
+            <p>Email: templeinnandsuites4@gmail.com</p>
+            <p>Address: 4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+        </section>
+
+        <form method="get" action="thankyou.html">
+            <fieldset class="general">
+                <legend><strong>Information</strong></legend>
+                <label class="top">First Name<span class="required">*</span> <input type="text" name="fname"
+                        placeholder="Russell" required></label>
+                <br>
+                <label class="top">Last Name<span class="required">*</span> <input type="text" name="lname"
+                        placeholder="Nelson" required></label>
+                <br>
+                <label class="top">Email<span class="required">*</span> <input type="email" name="email"
+                        placeholder="prophet2022@email.com" required></label>
+                <br>
+                <label class="top">Phone<span class="required">*</span> <input type="tel" name="phone"
+                        placeholder="111-111-1111" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend><strong>Feedback / Comments / Questions</strong></legend>
+                <label class="middle">
+                    <input type="text" name="description" placeholder="Type your comments here">
+                </label>
+            </fieldset>
+
+            <input type="submit" value="Submit" class="submitBtn">
+
+        </form>
+    </main>
+    <footer>
+        <p>
+            &copy; 2022 | <a href="missionaries.html">Contact us</a> | <a href="https://www.google.com/maps/place/4800+Montgomery+Dr,+Bethesda,+MD+20814/@39.0114823,-77.1141461,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7cbfa25c4d6d9:0x724007a05c8f4c37!8m2!3d39.0114782!4d-77.1119574">Directions</a> | Last modified: <span id="modified"></span>
+        </p>
+    </footer>
+</body>
+</html>
