@@ -7,5 +7,6 @@
     #contactinfo {grid-column: 2/3;}
     #currentweather {grid-column: 1/2;}
     #threedayforecast {grid-column: 2/3;}
+    #servicesmain {grid-template-columns: 1fr 1fr;}
 
 }

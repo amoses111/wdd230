@@ -242,3 +242,19 @@ form label.top input:required:valid {
 }
 
 /*END - THANK YOU*/
+
+/*SERVICES*/
+
+#servicesmain {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    text-align: center;
+    padding: .5rem;
+}
+
+#servicesmain p {
+    padding: 1rem;
+}
+
+/*END - SERVICES*/
