@@ -1,0 +1,11 @@
+@media screen and (min-width: 50em) {
+
+    #homemain {grid-template-columns: 1fr 1fr; grid-template-rows: 1fr;}
+    #featuredtemple {grid-column: 1/3;}
+    #featuredtemple p {padding: 1rem;}
+    #makereservation {grid-column: 1/2;}
+    #contactinfo {grid-column: 2/3;}
+    #currentweather {grid-column: 1/2;}
+    #threedayforecast {grid-column: 2/3;}
+
+}
