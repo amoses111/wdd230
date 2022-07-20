@@ -36,6 +36,5 @@ function displayResults(weatherData) {
     weatherIcon.setAttribute('alt', desc);
     
     captionDesc.innerHTML = desc;
-    desc[0].toUppercase() + desc.substring(1);
 
 }
